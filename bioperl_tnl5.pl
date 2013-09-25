@@ -230,7 +230,6 @@ while ( @rids = $blast->each_rid ) {
 #
 #------------------------------------------------------------------------------------------------------------------------------------
 
-# Both clustalw and muscle use the same input file
 my $inputfilename = 'hits.fasta';
 
 if($alignChoice eq "m" or $alignChoice eq "M"){   
