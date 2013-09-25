@@ -223,13 +223,6 @@ while ( @rids = $blast->each_rid ) {
 }
 
 
-#------------------------------------------------------------------------------------------------------------------------------------
-# Multiple sequence alignment
-#
-# Clustal and muscle methods available. clustalw or muscle can be chosen by the user at the console
-#
-#------------------------------------------------------------------------------------------------------------------------------------
-
 my $inputfilename = 'hits.fasta';
 
 if($alignChoice eq "m" or $alignChoice eq "M"){   
